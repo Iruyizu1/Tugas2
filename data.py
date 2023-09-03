@@ -9,11 +9,11 @@ repo_name = 'nama-repo'
 token = 'token-api-github'
 
 # URL API untuk mengambil issue
-url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/issues'
+url = f'https://api.github.com/repos/spring-framework/spring-projects/issues'
 
 # Header dengan token API
 headers = {
-    'Authorization': f'token {token}'
+    'Authorization': f'token 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'
 }
 
 # Mengambil data issue dari GitHub
